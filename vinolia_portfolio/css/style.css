@@ -264,9 +264,10 @@ select {
 button,
 [type="button"],
 [type="reset"],
-[type="submit"] {
+[type="submit"]
+ /* {
   -webkit-appearance: button;
-}
+} */
 
 button:not(:disabled),
 [type="button"]:not(:disabled),
@@ -328,19 +329,19 @@ progress {
   height: auto;
 }
 
-[type="search"] {
+/* [type="search"] {
   outline-offset: -2px;
   -webkit-appearance: none;
-}
+} */
 
-[type="search"]::-webkit-search-decoration {
+/* [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
-}
+} */
 
-::-webkit-file-upload-button {
+/* ::-webkit-file-upload-button {
   font: inherit;
   -webkit-appearance: button;
-}
+} */
 
 output {
   display: inline-block;
@@ -364,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  color: #343a40;
+  color: #1d184e;
 }
 
 h1, .h1 {
@@ -518,7 +519,7 @@ mark,
 .blockquote-footer {
   display: block;
   font-size: 80%;
-  color: #6c757d;
+  color: #7d6c79;
 }
 
 .blockquote-footer::before {
@@ -1534,7 +1535,7 @@ pre code {
 .table {
   width: 100%;
   margin-bottom: 1rem;
-  color: #6c757d;
+  color: #2683d4;
 }
 
 .table th,
@@ -4741,7 +4742,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #0BCEAF;
+  color: #84f5ef;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
