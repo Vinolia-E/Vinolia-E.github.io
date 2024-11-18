@@ -11,7 +11,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #24292e;
+  color: #41464b;
   text-align: left;
   background-color: rgb(81, 201, 248);
 }
@@ -527,7 +527,7 @@ h6, .h6 {
     margin-left: 91.66667%;
   }
 }
-
+/* contact */
 .form-control {
   display: block;
   width: 100%;
@@ -1062,14 +1062,14 @@ fieldset:disabled a.btn {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #9b2d38 !important;
 }
 
-a.bg-danger:hover, a.bg-danger:focus,
+/* a.bg-danger:hover, a.bg-danger:focus,
 button.bg-danger:hover,
 button.bg-danger:focus {
   background-color: #bd2130 !important;
-}
+} */
 
 .d-none {
   display: none !important;
@@ -1676,9 +1676,13 @@ button.bg-danger:focus {
   font-weight: bolder !important;
 }
 
-/* .text-white {
-  color: rgb(148, 14, 14) !important;
-} */
+.text-white {
+  color: whitesmoke !important;
+}
+
+.text-gray {
+  color: rgb(206, 195, 195) !important;
+}
 
 .text-primary {
   color: royalblue !important;
