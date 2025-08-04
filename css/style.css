@@ -57,7 +57,7 @@ h4,
 
 h6,
 .h6 {
-  color: rgb(85, 83, 83);
+  color: rgb(49, 51, 49);
 }
 
 h1,
@@ -1248,7 +1248,7 @@ fieldset:disabled a.btn {
 }
 
 .bg-danger {
-  background-color: #8f7377 !important;
+  background-color: rgb(165, 130, 42) !important;
 }
 
 .d-none {
